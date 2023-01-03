@@ -1,8 +1,8 @@
 {
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "build": "npm install && node main.js"
+    "start": "nodemon main.js",
+    "build": "npm install",
   },
   "dependencies": {
     "cors": "^2.8.5",
